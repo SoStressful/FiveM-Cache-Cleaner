@@ -45,6 +45,7 @@ taskkill /f /im Discord.exe
 cls
 echo.
 echo Delete the folder "1.0.9008" The number may be different depending on your version.
+echo If you do not see the folder then it was deleted automaticly.
 echo.
 choice /c YN /m "Is the Folder Deleted (Y/N)?"
 if errorlevel 2 goto menu
