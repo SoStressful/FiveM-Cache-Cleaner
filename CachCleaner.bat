@@ -68,3 +68,4 @@ taskkill /f /im GTAVLauncher.exe
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\cr
+goto showend
