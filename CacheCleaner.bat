@@ -26,7 +26,9 @@ rmdir /s /q "%APPDATA%\Discord\1.0.9008"
 taskkill /f /im Discord.exe
 taskkill /f /im FiveM.exe
 taskkill /f /im GTAVLauncher.exe
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\cache"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache-priv"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
 cls
@@ -65,7 +67,9 @@ cls
 echo Deleting FiveM cache...
 taskkill /f /im FiveM.exe
 taskkill /f /im GTAVLauncher.exe
-rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\cache"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache"
+rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\data\server-cache-priv"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
 goto showend
