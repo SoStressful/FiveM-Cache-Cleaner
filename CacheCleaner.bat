@@ -33,7 +33,7 @@ rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\logs"
 rmdir /s /q "%LocalAppData%\FiveM\FiveM.app\crashes"
 cls
 echo.
-echo Delete the folder "1.0.9008" The number may be different depending on your version.
+echo Delete the folder "1.0.9010" The number may be different depending on your version.
 echo If you do not see the folder then it was deleted automaticly.
 echo.
 choice /c YN /m "Is the Folder Deleted (Y/N)?"
