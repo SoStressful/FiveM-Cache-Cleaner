@@ -1,7 +1,7 @@
 @echo off
 cls
 echo ^<-------------------------^>
-echo ^<Cali World Cache Cleaner ^>
+echo ^<   FiveM Cache Cleaner   ^>
 echo ^<-------------------------^>
 echo.
 echo This script will delete the cache for either Discord or FiveM.
